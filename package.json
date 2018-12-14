@@ -1,0 +1,30 @@
+{
+  "name": "Oden",
+  "version": "1.0.0",
+  "description": "a webiste likes Oden ",
+  "main": "src/index.js",
+  "repository": "https://github.com/nocLyt/Oden.git",
+  "author": "Li Tianyi <noclyt@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "7",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "live-server": "^1.2.1",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-redux": "^6.0.0",
+    "react-router": "^4.3.1",
+    "webpack": "^4.27.1"
+  },
+  "scripts": {
+    "s": "live-server public/",
+    "b": "webpack --watch",
+    "b-babel": "babel src/app.js --out-file=public/scripts/app.js --presets=env,react --watch"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.1.2"
+  }
+}
